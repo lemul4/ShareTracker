@@ -1,0 +1,50 @@
+.root {
+    -fx-background-color: #2b2b2b; /* Цвет фона темной темы */
+    -fx-text-fill: white; /* Цвет текста */
+}
+
+.label {
+    -fx-text-fill: white; /* Цвет текста для Label */
+}
+
+.text-field {
+    -fx-background-color: #424242; /* Цвет фона текстового поля */
+    -fx-text-fill: white; /* Цвет текста в текстовом поле */
+}
+
+.button {
+    -fx-background-color: #303030; /* Цвет фона кнопки */
+    -fx-text-fill: white; /* Цвет текста на кнопке */
+}
+
+.button:pressed {
+    -fx-background-color: #00BFFF; /* Голубой цвет при нажатии */
+}
+
+.table-view {
+    -fx-background-color: #424242 !important; /* Постоянный цвет фона таблицы */
+    -fx-text-fill: white; /* Цвет текста в таблице */
+}
+
+.table-row-cell {
+    -fx-text-fill: black; /* Цвет текста в строке таблицы */
+    -fx-border-color: #000000; /* Цвет границы ячеек */
+    -fx-border-width: 0.1; /* Толщина границы ячеек */
+}
+
+.table-cell {
+    -fx-background-color: #424242; /* Постоянный цвет фона ячеек таблицы */
+    -fx-text-fill: white; /* Цвет текста в ячейках таблицы */
+    -fx-border-color: #000000; /* Цвет границы ячеек */
+    -fx-border-width: 0.1; /* Толщина границы ячеек */
+}
+
+.table-column .label {
+    -fx-text-fill: black; /* Цвет текста в заголовке столбцов */
+}
+
+.center-label {
+    -fx-text-fill: white; /* Цвет текста */
+    -fx-font-size: 18px; /* Размер шрифта */
+    -fx-font-weight: bold; /* Жирное начертание */
+}
