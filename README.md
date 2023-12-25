@@ -20,6 +20,7 @@ Java версия не ниже 18.
 акции: SBER, РУСАЛ, YNDX, FLOT, BBG000R04X57
 
 ## Запуск:
+porm.xml -> Maven -> reloade project
 src/main/java/com/example/sharetracker/ShareTrackerApp.java
 
 ## Дополнительная информация:
