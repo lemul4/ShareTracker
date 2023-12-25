@@ -14,6 +14,7 @@ Java версия не ниже 18.
 
 ## Запуск:
 porm.xml -> Maven -> reloade project
+
 src/main/java/com/example/sharetracker/ShareTrackerApp.java
 
 ## Использование:
