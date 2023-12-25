@@ -12,16 +12,16 @@ Share Tracker - это приложение для отслеживания ин
 Java версия не ниже 18.
 Версия Maven не ниже 3
 
+## Запуск:
+porm.xml -> Maven -> reloade project
+src/main/java/com/example/sharetracker/ShareTrackerApp.java
+
 ## Использование:
 Запустите приложение и введите название ценной бумаги в строку поиска.
 Нажмите кнопку "Поиск" для получения информации о ценных бумагах.
 Добавьте интересующие вас ценные бумаги в закладки с помощью флажков в таблице.
 Перейдите в раздел "Закладки", чтобы просмотреть сохраненные ценные бумаги.
 акции: SBER, РУСАЛ, YNDX, FLOT, BBG000R04X57
-
-## Запуск:
-porm.xml -> Maven -> reloade project
-src/main/java/com/example/sharetracker/ShareTrackerApp.java
 
 ## Дополнительная информация:
 Это приложение разработано с использованием JavaFX и Tinkoff Invest API.
