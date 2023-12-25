@@ -8,9 +8,10 @@ import ru.tinkoff.piapi.core.InvestApi;
 
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
-import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Objects;
+import java.util.Set;
 /**
  * Контроллер ShareTrackerController управляет взаимодействием между пользовательским интерфейсом JavaFX и API для отслеживания ценных бумаг.
  * Он содержит методы для поиска и отображения ценных бумаг, а также управления закладками.
@@ -25,7 +26,7 @@ public class ShareTrackerController {
     @FXML
     private TableColumn<ShareInfo, Boolean> bookmarkColumn;
 
-    private final List<String> savedFigi = new ArrayList<>();
+    private final Set<String> savedFigi = new HashSet<>();
     private final String token = "t._UnQBPxxIB6HBnGkSZFQ18jMkKW5s_WVuljeHMpcDUM_qni-EmvBsvXb1P398tJTs-F2meWyuCBUdcfVfvXoaQ";
     private final InvestApi api = InvestApi.createReadonly(token);
 
